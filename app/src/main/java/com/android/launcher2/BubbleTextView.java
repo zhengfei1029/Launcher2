@@ -24,6 +24,7 @@ import android.graphics.Rect;
 import android.graphics.Region;
 import android.graphics.Region.Op;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.TextView;
@@ -82,7 +83,7 @@ public class BubbleTextView extends TextView {
 
         final Resources res = getContext().getResources();
         mFocusedOutlineColor = mFocusedGlowColor = mPressedOutlineColor = mPressedGlowColor =
-            res.getColor(android.R.color.white);
+                res.getColor(android.R.color.white);
 
         setShadowLayer(SHADOW_LARGE_RADIUS, 0.0f, SHADOW_Y_OFFSET, SHADOW_LARGE_COLOUR);
     }
@@ -165,7 +166,7 @@ public class BubbleTextView extends TextView {
      * Draw this BubbleTextView into the given Canvas.
      *
      * @param destCanvas the canvas to draw on
-     * @param padding the horizontal and vertical padding to use when drawing
+     * @param padding    the horizontal and vertical padding to use when drawing
      */
     private void drawWithPadding(Canvas destCanvas, int padding) {
         final Rect clipRect = mTempRect;
@@ -173,7 +174,7 @@ public class BubbleTextView extends TextView {
 
         // adjust the clip rect so that we don't include the text label
         clipRect.bottom =
-            getExtendedPaddingTop() - (int) BubbleTextView.PADDING_V + getLayout().getLineTop(0);
+                getExtendedPaddingTop() - (int) BubbleTextView.PADDING_V + getLayout().getLineTop(0);
 
         // Draw the View into the bitmap.
         // The translate of scrollX and scrollY is necessary when drawing TextViews, because
@@ -182,7 +183,11 @@ public class BubbleTextView extends TextView {
         destCanvas.scale(getScaleX(), getScaleY(),
                 (getWidth() + padding) / 2, (getHeight() + padding) / 2);
         destCanvas.translate(-getScrollX() + padding / 2, -getScrollY() + padding / 2);
-        destCanvas.clipRect(clipRect, Op.REPLACE);
+        if (Build.VERSION.SDK_INT >= 28) {
+            destCanvas.clipRect(clipRect);
+        } else {
+            destCanvas.clipRect(clipRect, Op.REPLACE);
+        }
         draw(destCanvas);
         destCanvas.restore();
     }
@@ -283,7 +288,7 @@ public class BubbleTextView extends TextView {
             final int scrollY = getScrollY();
 
             if (mBackgroundSizeChanged) {
-                background.setBounds(0, 0,  getRight() - getLeft(), getBottom() - getTop());
+                background.setBounds(0, 0, getRight() - getLeft(), getBottom() - getTop());
                 mBackgroundSizeChanged = false;
             }
 
