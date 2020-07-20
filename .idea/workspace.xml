@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdb6a01-7834-4abc-988f-1896a117ed16" name="Default Changelist" comment="" />
+    <list default="true" id="6fdb6a01-7834-4abc-988f-1896a117ed16" name="Default Changelist" comment="1:修复点击allapp按钮程序崩溃问题">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595210119425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1:修复点击allapp按钮程序崩溃问题">
+      <created>1595210126391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595210126391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="252" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1595206849090" />
-    <state x="504" y="124" width="1214" height="902" key="CommitChangelistDialog2" timestamp="1595210116776">
+    <state x="504" y="124" width="1214" height="902" key="CommitChangelistDialog2" timestamp="1595210145555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="124" width="1214" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595210116776" />
+    <state x="504" y="124" width="1214" height="902" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595210145555" />
     <state width="1877" height="353" key="GridCell.Tab.0.bottom" timestamp="1595209861093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
