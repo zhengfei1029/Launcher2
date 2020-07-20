@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "19,20,21,18,37,38,28,24,32,33,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "775,841,909,710,1547,1605,1175,998,1355,1418,1221,1288",
+                        "endColumns": "65,67,68,64,57,56,44,53,62,62,66,66",
+                        "endOffsets": "836,904,973,770,1600,1657,1215,1047,1413,1476,1283,1350"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,121,189,258,323,381,438,483,537,600,663,730",
+                        "endColumns": "65,67,68,64,57,56,44,53,62,62,66,66",
+                        "endOffsets": "116,184,253,318,376,433,478,532,595,658,725,792"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="extra_wallpapers">
+    </string-array>
+    <string-array name="wallpapers" translatable="false">
+        <!-- This special drawable references the platform's private
+             default_wallpaper resource so the user can always choose it. -->
+        <item>default_wallpaper</item>
+
+        <!-- If you want additional bitmap drawable resources to appear in the
+             wallpaper picker, add them to this list. For each foo.jpg be sure
+             to include a foo_small.jpg to be used as a thumbnail in the
+             scrolling gallery widget. -->
+    </string-array>
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0"/>
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1"/>
+    </attr>
+    <bool name="allow_rotation">false</bool>
+    <bool name="config_largeHeap">false</bool>
+    <bool name="config_useCustomClings">false</bool>
+    <bool name="config_useDropTargetDownTransition">true</bool>
+    <bool name="config_workspaceFadeAdjacentScreens">false</bool>
+    <bool name="hotseat_transpose_layout_with_orientation">true</bool>
+    <bool name="is_large_screen">false</bool>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="bubble_dark_background">#20000000</color>
+    <color name="delete_target_hover_tint">#DAFF0000</color>
+    <color name="info_target_hover_tint">#DA0099CC</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#CCFFFFFF</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#A0000000</color>
+    <color name="workspace_icon_text_color">#FFF</color>
+    <dimen name="app_icon_drawable_padding">6dp</dimen>
+    <dimen name="app_icon_drawable_padding_land">2dp</dimen>
+    <dimen name="app_icon_padding_top">8dp</dimen>
+    <dimen name="app_icon_size">48dp</dimen>
+    <dimen name="app_widget_preview_label_margin_left">2dp</dimen>
+    <dimen name="app_widget_preview_label_margin_right">2dp</dimen>
+    <dimen name="app_widget_preview_label_margin_top">4dp</dimen>
+    <dimen name="app_widget_preview_padding_left">16dp</dimen>
+    <dimen name="app_widget_preview_padding_right">16dp</dimen>
+    <dimen name="app_widget_preview_padding_top">32dp</dimen>
+    <dimen name="apps_customize_cell_height">82dp</dimen>
+    <dimen name="apps_customize_cell_width">74dp</dimen>
+    <dimen name="apps_customize_max_gap">18dp</dimen>
+    <dimen name="apps_customize_tab_bar_height">52dp</dimen>
+    <dimen name="apps_customize_tab_bar_margin_top">0dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">8dp</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">10dp</dimen>
+    <dimen name="button_bar_height">62dip</dimen>
+    <dimen name="button_bar_height_bottom_padding">0dp</dimen>
+    <dimen name="button_bar_height_plus_padding">70dp</dimen>
+    <dimen name="button_bar_height_top_padding">8dp</dimen>
+    <dimen name="button_bar_width_left_padding">0dp</dimen>
+    <dimen name="button_bar_width_right_padding">0dp</dimen>
+    <dimen name="cell_layout_bottom_padding_land">0dp</dimen>
+    <dimen name="cell_layout_bottom_padding_port">0dp</dimen>
+    <dimen name="cell_layout_left_padding_land">0dp</dimen>
+    <dimen name="cell_layout_left_padding_port">0dp</dimen>
+    <dimen name="cell_layout_right_padding_land">0dp</dimen>
+    <dimen name="cell_layout_right_padding_port">0dp</dimen>
+    <dimen name="cell_layout_top_padding_land">0dp</dimen>
+    <dimen name="cell_layout_top_padding_port">6dp</dimen>
+    <dimen name="clingPunchThroughGraphicCenterRadius">94dp</dimen>
+    <dimen name="cling_text_block_offset_x">0dp</dimen>
+    <dimen name="cling_text_block_offset_y">0dp</dimen>
+    <dimen name="custom_cling_margin_left">0dp</dimen>
+    <dimen name="custom_cling_margin_right">0dp</dimen>
+    <dimen name="custom_cling_margin_top">0dp</dimen>
+    <dimen name="dragViewOffsetX">0dp</dimen>
+    <dimen name="dragViewOffsetY">0dp</dimen>
+    <dimen name="dragViewScale">12dp</dimen>
+    <dimen name="drop_target_drag_padding">14dp</dimen>
+    <dimen name="folderClingMarginTop">20dp</dimen>
+    <dimen name="folder_cell_height">82dp</dimen>
+    <dimen name="folder_cell_width">74dp</dimen>
+    <dimen name="folder_height_gap">0dp</dimen>
+    <dimen name="folder_icon_padding_top">2dp</dimen>
+    <dimen name="folder_name_padding">10dp</dimen>
+    <dimen name="folder_padding">0dp</dimen>
+    <dimen name="folder_preview_padding">4dp</dimen>
+    <dimen name="folder_preview_size">62dp</dimen>
+    <dimen name="folder_width_gap">0dp</dimen>
+    <dimen name="hotseat_cell_height">64dp</dimen>
+    <dimen name="hotseat_cell_width">64dp</dimen>
+    <dimen name="hotseat_height_gap">-1dp</dimen>
+    <dimen name="hotseat_width_gap">-1dp</dimen>
+    <dimen name="profile_badge_margin">4dp</dimen>
+    <dimen name="profile_badge_size">24dp</dimen>
+    <dimen name="qsb_bar_height">40dp</dimen>
+    <dimen name="qsb_bar_height_inset">34dp</dimen>
+    <dimen name="qsb_padding_left">0dp</dimen>
+    <dimen name="qsb_padding_right">0dp</dimen>
+    <dimen name="reveal_radius">48dp</dimen>
+    <dimen name="scroll_zone">20dp</dimen>
+    <dimen name="search_bar_height">40dp</dimen>
+    <dimen name="shortcut_preview_padding_left">0dp</dimen>
+    <dimen name="shortcut_preview_padding_right">0dp</dimen>
+    <dimen name="shortcut_preview_padding_top">0dp</dimen>
+    <dimen name="toolbar_button_horizontal_padding">12dip</dimen>
+    <dimen name="toolbar_button_vertical_padding">4dip</dimen>
+    <dimen name="toolbar_external_icon_height">36dp</dimen>
+    <dimen name="toolbar_external_icon_width">36dp</dimen>
+    <dimen name="workspace_bottom_padding_land">0dp</dimen>
+    <dimen name="workspace_bottom_padding_port">@dimen/button_bar_height</dimen>
+    <dimen name="workspace_cell_height_land">74dp</dimen>
+    <dimen name="workspace_cell_height_port">100dp</dimen>
+    <dimen name="workspace_cell_width_land">106dp</dimen>
+    <dimen name="workspace_cell_width_port">80dp</dimen>
+    <dimen name="workspace_divider_padding_bottom">0dp</dimen>
+    <dimen name="workspace_divider_padding_left">3dp</dimen>
+    <dimen name="workspace_divider_padding_right">3dp</dimen>
+    <dimen name="workspace_divider_padding_top">0dp</dimen>
+    <dimen name="workspace_height_gap_land">0dp</dimen>
+    <dimen name="workspace_height_gap_port">0dp</dimen>
+    <dimen name="workspace_icon_text_size">12sp</dimen>
+    <dimen name="workspace_left_padding_land">@dimen/qsb_bar_height</dimen>
+    <dimen name="workspace_left_padding_port">0dp</dimen>
+    <dimen name="workspace_max_gap">16dp</dimen>
+    <dimen name="workspace_overscroll_drawable_padding">0dp</dimen>
+    <dimen name="workspace_right_padding_land">@dimen/button_bar_height</dimen>
+    <dimen name="workspace_right_padding_port">0dp</dimen>
+    <dimen name="workspace_spring_loaded_page_spacing">15dp</dimen>
+    <dimen name="workspace_top_padding_land">0dp</dimen>
+    <dimen name="workspace_top_padding_port">@dimen/qsb_bar_height_inset</dimen>
+    <dimen name="workspace_width_gap_land">0dp</dimen>
+    <dimen name="workspace_width_gap_port">0dp</dimen>
+    <integer name="apps_customize_maxCellCountX">-1</integer>
+    <integer name="apps_customize_maxCellCountY">-1</integer>
+    <integer name="cell_count_x">4</integer>
+    <integer name="cell_count_y">4</integer>
+    <integer name="config_allAppsBatchLoadDelay">0</integer>
+    <integer name="config_allAppsBatchSize">0</integer>
+    <integer name="config_appsCustomizeDragSlopeThreshold">150</integer>
+    <integer name="config_appsCustomizeFadeInTime">250</integer>
+    <integer name="config_appsCustomizeFadeOutTime">200</integer>
+    <integer name="config_appsCustomizeSpringLoadedBgAlpha">45</integer>
+    <integer name="config_appsCustomizeWorkspaceAnimationStagger">40</integer>
+    <integer name="config_appsCustomizeWorkspaceShrinkTime">300</integer>
+    <integer name="config_appsCustomizeZoomInTime">350</integer>
+    <integer name="config_appsCustomizeZoomOutTime">600</integer>
+    <integer name="config_appsCustomizeZoomScaleFactor">7</integer>
+    <integer name="config_cameraDistance">6500</integer>
+    <integer name="config_dragFadeOutAlpha">80</integer>
+    <integer name="config_dragFadeOutDuration">250</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    <integer name="config_dragOutlineMaxAlpha">128</integer>
+    <integer name="config_dropAnimMaxDist">800</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
+    <integer name="config_dropAnimMinDuration">100</integer>
+    <integer name="config_dropTargetBgTransitionDuration">0</integer>
+    <integer name="config_flingToDeleteMinVelocity">-1500</integer>
+    <integer name="config_folderAnimDuration">120</integer>
+    <integer name="config_tabTransitionDuration">250</integer>
+    <integer name="config_workspaceAppsCustomizeAnimationStagger">100</integer>
+    <integer name="config_workspaceSpringLoadShrinkPercentage">80</integer>
+    <integer name="config_workspaceUnshrinkTime">300</integer>
+    <integer name="folder_max_count_x">4</integer>
+    <integer name="folder_max_count_y">4</integer>
+    <integer name="folder_max_num_items">16</integer>
+    <integer name="hotseat_all_apps_index">2</integer>
+    <integer name="hotseat_cell_count">5</integer>
+    <integer name="hotseat_item_scale_percentage">100</integer>
+    <string name="accessibility_all_apps_button">Apps</string>
+    <string name="accessibility_delete_button">Remove</string>
+    <string name="accessibility_search_button">Search</string>
+    <string name="accessibility_voice_search_button">Voice Search</string>
+    <string name="activity_not_found">App isn\'t installed.</string>
+    <string name="all_apps_button_label">Apps</string>
+    <string name="all_apps_cling_add_item">To add an app to your Home screen, touch &amp; hold it.</string>
+    <string name="all_apps_cling_title">Choose some apps</string>
+    <string name="all_apps_home_button_label">Home</string>
+    <string name="application_name">Launcher</string>
+    <string name="apps_customize_apps_scroll_format">Apps page %1$d of %2$d</string>
+    <string name="apps_customize_widgets_scroll_format">Widgets page %1$d of %2$d</string>
+    <string name="cab_app_selection_text">1 app selected</string>
+    <string name="cab_folder_selection_text">1 folder selected</string>
+    <string name="cab_menu_app_info">App details</string>
+    <string name="cab_menu_delete_app">Uninstall app</string>
+    <string name="cab_shortcut_selection_text">1 shortcut selected</string>
+    <string name="cab_widget_selection_text">1 widget selected</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="chooser_wallpaper">Choose wallpaper from</string>
+    <string name="cling_dismiss">OK</string>
+    <string name="completely_out_of_space">No more room on your Home screens.</string>
+    <string name="custom_workspace_cling_description_1"/>
+    <string name="custom_workspace_cling_description_2"/>
+    <string name="custom_workspace_cling_title_1"/>
+    <string name="custom_workspace_cling_title_2"/>
+    <string name="default_folder_name"/>
+    <string name="default_scroll_format">Page %1$d of %2$d</string>
+    <string name="delete_target_label">Remove</string>
+    <string name="delete_target_uninstall_label">Uninstall</string>
+    <string name="delete_zone_label_all_apps">Uninstall</string>
+    <string name="delete_zone_label_all_apps_system_app">Uninstall update</string>
+    <string name="delete_zone_label_workspace">Remove</string>
+    <string name="dream_name">Rocket Launcher</string>
+    <string name="dummy_custom_cling_error_message">Error: custom workspace layout passed in but custom cling was not overwritten</string>
+    <string name="external_drop_widget_error">Couldn\'t drop item on this Home screen.</string>
+    <string name="external_drop_widget_pick_format" translatable="false">%1$s (%2$d \u00d7 %3$d)</string>
+    <string name="external_drop_widget_pick_title">Choose widget to create</string>
+    <string name="folder_cling_create_folder">To make a new folder on your Home screen, stack one app on top of another.</string>
+    <string name="folder_cling_move_item">To move an app, touch &amp; hold it.</string>
+    <string name="folder_cling_title">Organize your apps with folders</string>
+    <string name="folder_closed">Folder closed</string>
+    <string name="folder_hint_text">Unnamed Folder</string>
+    <string name="folder_name"/>
+    <string name="folder_name_format">Folder: <ns1:g example="Games" id="name">%1$s</ns1:g></string>
+    <string name="folder_opened">Folder opened, <ns1:g example="5" id="width">%1$d</ns1:g> by <ns1:g example="3" id="height">%2$d</ns1:g></string>
+    <string name="folder_renamed">Folder renamed to <ns1:g example="Games" id="name">%1$s</ns1:g></string>
+    <string name="folder_tap_to_close">Touch to close folder</string>
+    <string name="folder_tap_to_rename">Touch to save rename</string>
+    <string name="gadget_error_text">Problem loading widget</string>
+    <string name="group_applications">Apps</string>
+    <string name="group_shortcuts">Shortcuts</string>
+    <string name="group_wallpapers">Wallpapers</string>
+    <string name="group_widgets">Widgets</string>
+    <string name="help_url" translatable="false"/>
+    <string name="home">Home</string>
+    <string name="hotseat_out_of_space">No more room on the hotseat.</string>
+    <string name="info_target_label">App info</string>
+    <string name="invalid_hotseat_item">This widget is too large for the hotseat.</string>
+    <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget.</string>
+    <string name="market">Shop</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_item_add_item">Add to Home screen</string>
+    <string name="menu_manage_apps">Manage apps</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">System settings</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <string name="permdesc_install_shortcut">Allows an app to add
+        shortcuts without user intervention.</string>
+    <string name="permdesc_read_settings">Allows the app to read the settings and
+        shortcuts in Home.</string>
+    <string name="permdesc_uninstall_shortcut">Allows the app to remove
+        shortcuts without user intervention.</string>
+    <string name="permdesc_write_settings">Allows the app to change the settings and
+        shortcuts in Home.</string>
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <string name="pick_wallpaper">Wallpapers</string>
+    <string name="rename_action">OK</string>
+    <string name="rename_folder_label">Folder name</string>
+    <string name="rename_folder_title">Rename folder</string>
+    <string name="shortcut_duplicate">Shortcut \"<ns1:g example="Browser" id="name">%s</ns1:g>\" already exists.</string>
+    <string name="shortcut_installed">Shortcut \"<ns1:g example="Browser" id="name">%s</ns1:g>\" created.</string>
+    <string name="shortcut_uninstalled">Shortcut \"<ns1:g example="Browser" id="name">%s</ns1:g>\" was removed.</string>
+    <string name="title_select_application">Choose app</string>
+    <string name="title_select_shortcut">Choose shortcut</string>
+    <string name="uid_name">Android Core Apps</string>
+    <string name="uninstall_system_app_text">This is a system app and can\'t be uninstalled.</string>
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+    <string name="widgets_tab_label">Widgets</string>
+    <string name="workspace_cling_move_item">You can put your favorite apps here.</string>
+    <string name="workspace_cling_open_all_apps">To see all your apps, touch the circle.</string>
+    <string name="workspace_cling_title">Make yourself at home</string>
+    <string name="workspace_description_format">Home screen %1$d</string>
+    <string name="workspace_scroll_format">Home screen %1$d of %2$d</string>
+    <style name="ClingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">35dp</item>
+        <item name="android:paddingEnd">35dp</item>
+        <item name="android:text">@string/cling_dismiss</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#49C0EC</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="CustomClingText">
+    </style>
+    <style name="CustomClingTitleText">
+    </style>
+    <style name="DropTargetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">7.5dp</item>
+        <item name="android:paddingStart">25dp</item>
+        <item name="android:paddingEnd">25dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="MarketButton">
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">@color/workspace_all_apps_and_delete_zone_text_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="QSBBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qsb_bar_height</item>
+        <item name="android:layout_gravity">top|center_horizontal</item>
+        <item name="android:paddingStart">@dimen/qsb_padding_left</item>
+        <item name="android:paddingEnd">@dimen/qsb_padding_right</item>
+    </style>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="SearchDropTargetBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize">
+        <!-- Overridden in values-land -->
+    </style>
+    <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+    </style>
+    <style name="Theme.WallpaperPicker" parent="@android:style/Theme.Holo.NoActionBar">
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">@dimen/workspace_icon_text_size</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape">
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding_land</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize">
+        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:drawablePadding">6dp</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.Folder">
+        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_marginTop">-2dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait">
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.AppsCustomize">
+        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.Folder">
+        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingTop">@dimen/folder_icon_padding_top</item>
+    </style>
+    <declare-styleable name="AppsCustomizePagedView">
+        <!-- Max number of cells of applications horizontally -->
+        <attr format="integer" name="maxAppCellCountX"/>
+        <!-- Max number of cells of applications vertically -->
+        <attr format="integer" name="maxAppCellCountY"/>
+        <!-- Horizontal spacing between widgets and wallpapers -->
+        <attr format="dimension" name="widgetCellWidthGap"/>
+        <!-- Vertical spacing between widgets -->
+        <attr format="dimension" name="widgetCellHeightGap"/>
+        <!-- Number of widgets horizontally -->
+        <attr format="integer" name="widgetCountX"/>
+        <!-- Number of widgets vertically -->
+        <attr format="integer" name="widgetCountY"/>
+        <!-- The x index of the item to be focused in the cling -->
+        <attr format="integer" name="clingFocusedX"/>
+        <!-- The y index of the item to be focused in the cling -->
+        <attr format="integer" name="clingFocusedY"/>
+    </declare-styleable>
+    <declare-styleable name="CellLayout">
+        <!-- The width of a single cell -->
+        <attr format="dimension" name="cellWidth"/>
+        <!-- The height of a single cell -->
+        <attr format="dimension" name="cellHeight"/>
+        <!-- An override for the width and height gap to allow users to specify
+             a specific size for the page using spacing instead of resolving the
+             spacing from the width of the page -->
+        <attr format="dimension" name="widthGap"/>
+        <attr format="dimension" name="heightGap"/>
+        <!-- The max gap size for each dimension -->
+        <attr format="dimension" name="maxGap"/>
+    </declare-styleable>
+    <declare-styleable name="Cling">
+        <!-- Used to identify how to draw the cling bg -->
+        <attr format="string" name="drawIdentifier"/>
+    </declare-styleable>
+    <declare-styleable name="CustomClingText">
+    </declare-styleable>
+    <declare-styleable name="CustomClingTitleText">
+    </declare-styleable>
+    <declare-styleable name="DrawableStateProxyView">
+        <!-- The source view to delegate touch presses events to. -->
+        <attr format="integer" name="sourceViewId"/>
+    </declare-styleable>
+    <declare-styleable name="Extra">
+        <attr format="string" name="key"/>
+        <attr format="string" name="value"/>
+    </declare-styleable>
+    <declare-styleable name="Favorite">
+        <attr format="string" name="className"/>
+        <attr format="string" name="packageName"/>
+        <attr format="string" name="container"/>
+        <attr format="string" name="screen"/>
+        <attr format="string" name="x"/>
+        <attr format="string" name="y"/>
+        <attr format="string" name="spanX"/>
+        <attr format="string" name="spanY"/>
+        <attr format="reference" name="icon"/>  
+        <attr format="reference" name="title"/>
+        <attr format="string" name="uri"/>
+    </declare-styleable>
+    <declare-styleable name="HandleView">
+        <!-- Orientation of the handle. -->
+        <attr name="direction"/>
+    </declare-styleable>
+    <declare-styleable name="HolographicLinearLayout">
+        <!-- The source view to generate and apply the drawable states to/from -->
+        <attr format="integer" name="sourceImageViewId"/>
+    </declare-styleable>
+    <declare-styleable name="Hotseat">
+        <!-- The number of horizontal cells in the CellLayout -->
+        <attr name="cellCountX"/>
+        <!-- The number of vertical cells in the CellLayout -->
+        <attr name="cellCountY"/>
+    </declare-styleable>
+    <declare-styleable name="PagedView">
+        <!-- A spacing override for the icons within a page -->
+        <attr format="dimension" name="pageLayoutWidthGap"/>
+        <attr format="dimension" name="pageLayoutHeightGap"/>
+        <!-- The padding of the pages that are dynamically created per page -->
+        <attr format="dimension" name="pageLayoutPaddingTop"/>
+        <attr format="dimension" name="pageLayoutPaddingBottom"/>
+        <attr format="dimension" name="pageLayoutPaddingLeft"/>
+        <attr format="dimension" name="pageLayoutPaddingRight"/>
+        <!-- The space between adjacent pages of the PagedView. -->
+        <attr format="dimension" name="pageSpacing"/>
+        <!-- The padding for the scroll indicator area -->
+        <attr format="dimension" name="scrollIndicatorPaddingLeft"/>
+        <attr format="dimension" name="scrollIndicatorPaddingRight"/>
+    </declare-styleable>
+    <declare-styleable name="StrokedTextView">
+        <!-- The color of the stroke outline -->
+        <attr format="color" name="strokeColor"/>
+        <!-- The color of the text -->
+        <attr format="color" name="strokeTextColor"/>
+        <!-- The width of the stroke -->
+        <attr format="float" name="strokeWidth"/>
+    </declare-styleable>
+    <declare-styleable name="Workspace">
+        <!-- The first screen the workspace should display. -->
+        <attr format="integer" name="defaultScreen"/>
+        <!-- The number of horizontal cells in the CellLayout -->
+        <attr format="integer" name="cellCountX"/>
+        <!-- The number of vertical cells in the CellLayout -->
+        <attr format="integer" name="cellCountY"/>
+    </declare-styleable>
+</resources>

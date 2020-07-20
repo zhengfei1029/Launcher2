@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-port-v13\\values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw600dp-port\\dimens.xml",
+                    "from": {
+                        "startLines": "19,18,21,23,22,20,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "767,710,891,1024,957,826,1108",
+                        "endColumns": "58,56,65,69,66,64,45",
+                        "endOffsets": "821,762,952,1089,1019,886,1149"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,171,237,307,374,439",
+                        "endColumns": "58,56,65,69,66,64,45",
+                        "endOffsets": "109,166,232,302,369,434,480"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,304 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3/*
+4**
+5** Copyright 2008, The Android Open Source Project
+6**
+7** Licensed under the Apache License, Version 2.0 (the "License");
+8** you may not use this file except in compliance with the License.
+9** You may obtain a copy of the License at
+10**
+11**     http://www.apache.org/licenses/LICENSE-2.0
+12**
+13** Unless required by applicable law or agreed to in writing, software
+14** distributed under the License is distributed on an "AS IS" BASIS,
+15** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+16** See the License for the specific language governing permissions and
+17** limitations under the License.
+18*/
+19-->
+20<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+21    package="com.android.launcher" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="1"
+24-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="28" />
+25-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml
+26
+27    <original-package android:name="com.android.launcher2" />
+27-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:24:5-62
+27-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:24:23-59
+28
+29    <permission
+29-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:26:5-29:47
+30        android:name="com.android.launcher.permission.PRELOAD_WORKSPACE"
+30-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:27:9-73
+31        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+31-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:28:9-72
+32        android:protectionLevel="signature" />
+32-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:29:9-44
+33    <permission
+33-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:30:5-35:67
+34        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+34-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:31:9-72
+35        android:description="@string/permdesc_install_shortcut"
+35-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:35:9-64
+36        android:label="@string/permlab_install_shortcut"
+36-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:34:9-57
+37        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+37-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:32:9-72
+38        android:protectionLevel="dangerous" />
+38-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:33:9-44
+39    <permission
+39-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:36:5-41:68
+40        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+40-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:37:9-74
+41        android:description="@string/permdesc_uninstall_shortcut"
+41-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:41:9-66
+42        android:label="@string/permlab_uninstall_shortcut"
+42-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:40:9-59
+43        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+43-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:38:9-72
+44        android:protectionLevel="dangerous" />
+44-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:39:9-44
+45    <permission
+45-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:42:5-47:63
+46        android:name="com.android.launcher.permission.READ_SETTINGS"
+46-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:43:9-69
+47        android:description="@string/permdesc_read_settings"
+47-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:47:9-61
+48        android:label="@string/permlab_read_settings"
+48-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:46:9-54
+49        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+49-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:44:9-72
+50        android:protectionLevel="normal" />
+50-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:45:9-41
+51    <permission
+51-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:48:5-53:64
+52        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+52-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:49:9-70
+53        android:description="@string/permdesc_write_settings"
+53-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:53:9-62
+54        android:label="@string/permlab_write_settings"
+54-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:52:9-55
+55        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+55-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:50:9-72
+56        android:protectionLevel="signature" />
+56-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:51:9-44
+57
+58    <uses-permission android:name="android.permission.CALL_PHONE" />
+58-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:55:5-69
+58-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:55:22-66
+59    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+59-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:56:5-72
+59-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:56:22-69
+60    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+60-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:57:5-78
+60-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:57:22-75
+61    <uses-permission android:name="android.permission.VIBRATE" />
+61-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:58:5-66
+61-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:58:22-63
+62    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+62-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:59:5-73
+62-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:59:22-70
+63    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+63-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:60:5-82
+63-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:60:22-79
+64    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+64-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:61:5-85
+64-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:61:22-82
+65    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+65-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:62:5-86
+65-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:62:22-83
+66
+67    <application
+67-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:64:5-160:19
+68        android:name="com.android.launcher2.LauncherApplication"
+68-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:65:9-65
+69        android:debuggable="true"
+70        android:hardwareAccelerated="true"
+70-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:68:9-43
+71        android:icon="@mipmap/ic_launcher_home"
+71-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:67:9-48
+72        android:label="@string/application_name"
+72-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:66:9-49
+73        android:largeHeap="@bool/config_largeHeap"
+73-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:69:9-51
+74        android:supportsRtl="true"
+74-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:70:9-35
+75        android:testOnly="true" >
+76        <activity
+76-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:71:9-88:20
+77            android:name="com.android.launcher2.Launcher"
+77-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:72:13-58
+78            android:clearTaskOnLaunch="true"
+78-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:74:13-45
+79            android:launchMode="singleTask"
+79-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:73:13-44
+80            android:resumeWhilePausing="true"
+80-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:76:13-46
+81            android:screenOrientation="nosensor"
+81-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:79:13-49
+82            android:stateNotNeeded="true"
+82-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:75:13-42
+83            android:theme="@style/Theme"
+83-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:77:13-41
+84            android:windowSoftInputMode="adjustPan" >
+84-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:78:13-52
+85            <intent-filter>
+85-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:80:13-87:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:81:17-69
+86-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:81:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:83:17-77
+88-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:83:27-74
+89                <category android:name="android.intent.category.HOME" />
+89-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:84:17-73
+89-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:84:27-70
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:85:17-76
+90-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:85:27-73
+91                <category android:name="android.intent.category.MONKEY" />
+91-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:86:17-74
+91-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:86:27-72
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:90:9-103:20
+95            android:name="com.android.launcher2.WallpaperChooser"
+95-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:91:13-66
+96            android:finishOnCloseSystemDialogs="true"
+96-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:95:13-54
+97            android:icon="@mipmap/ic_launcher_wallpaper"
+97-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:94:13-57
+98            android:label="@string/pick_wallpaper"
+98-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:93:13-51
+99            android:process=":wallpaper_chooser"
+99-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:96:13-49
+100            android:theme="@style/Theme.WallpaperPicker" >
+100-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:92:13-57
+101            <intent-filter>
+101-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:97:13-100:29
+102                <action android:name="android.intent.action.SET_WALLPAPER" />
+102-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:98:17-78
+102-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:98:25-75
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:85:17-76
+104-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:85:27-73
+105            </intent-filter>
+106
+107            <meta-data
+107-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:101:13-102:68
+108                android:name="android.wallpaper.preview"
+108-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:101:24-64
+109                android:resource="@xml/wallpaper_picker_preview" />
+109-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:102:17-65
+110        </activity>
+111
+112        <!-- Intent received used to prepopulate the default workspace. -->
+113        <receiver
+113-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:106:9-112:20
+114            android:name="com.android.launcher2.PreloadReceiver"
+114-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:107:13-65
+115            android:permission="com.android.launcher.permission.PRELOAD_WORKSPACE" >
+115-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:108:13-83
+116            <intent-filter>
+116-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:109:13-111:29
+117                <action android:name="com.android.launcher.action.PRELOAD_WORKSPACE" />
+117-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:110:17-88
+117-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:110:25-85
+118            </intent-filter>
+119        </receiver>
+120
+121        <!-- Intent received used to install shortcuts from other applications -->
+122        <receiver
+122-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:115:9-121:20
+123            android:name="com.android.launcher2.InstallShortcutReceiver"
+123-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:116:13-73
+124            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
+124-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:117:13-82
+125            <intent-filter>
+125-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:118:13-120:29
+126                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+126-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:119:17-87
+126-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:119:25-84
+127            </intent-filter>
+128        </receiver>
+129
+130        <!-- Intent received used to uninstall shortcuts from other applications -->
+131        <receiver
+131-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:124:9-130:20
+132            android:name="com.android.launcher2.UninstallShortcutReceiver"
+132-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:125:13-75
+133            android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT" >
+133-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:126:13-84
+134            <intent-filter>
+134-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:127:13-129:29
+135                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+135-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:128:17-89
+135-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:128:25-86
+136            </intent-filter>
+137        </receiver>
+138
+139        <!-- New user initialization; set up initial wallpaper -->
+140        <receiver
+140-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:133:9-139:20
+141            android:name="com.android.launcher2.UserInitializeReceiver"
+141-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:134:13-72
+142            android:exported="false" >
+142-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:135:13-37
+143            <intent-filter>
+143-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:136:13-138:29
+144                <action android:name="android.intent.action.USER_INITIALIZE" />
+144-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:137:17-80
+144-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:137:25-77
+145            </intent-filter>
+146        </receiver>
+147        <receiver android:name="com.android.launcher2.PackageChangedReceiver" >
+147-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:141:9-148:20
+147-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:141:19-78
+148            <intent-filter>
+148-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:142:13-147:29
+149                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+149-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:143:17-79
+149-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:143:25-77
+150                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+150-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:144:17-80
+150-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:144:25-78
+151                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+151-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:145:17-79
+151-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:145:25-77
+152
+153                <data android:scheme="package" />
+153-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:146:17-55
+153-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:146:23-47
+154            </intent-filter>
+155        </receiver>
+156
+157        <!-- The settings provider contains Home's data, like the workspace favorites -->
+158        <provider
+158-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:151:9-156:86
+159            android:name="com.android.launcher2.LauncherProvider"
+159-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:152:13-66
+160            android:authorities="com.android.launcher2.settings"
+160-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:153:13-65
+161            android:exported="true"
+161-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:154:13-36
+162            android:readPermission="com.android.launcher.permission.READ_SETTINGS"
+162-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:156:13-83
+163            android:writePermission="com.android.launcher.permission.WRITE_SETTINGS" />
+163-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:155:13-85
+164
+165        <meta-data
+165-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:158:9-159:47
+166            android:name="android.nfc.disable_beam_default"
+166-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:158:20-67
+167            android:value="true" />
+167-->E:\workspace\myapps\Launcher2\app\src\main\AndroidManifest.xml:159:24-44
+168    </application>
+169
+170</manifest>

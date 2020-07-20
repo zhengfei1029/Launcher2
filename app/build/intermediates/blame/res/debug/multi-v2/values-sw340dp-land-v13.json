@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw340dp-land-v13\\values-sw340dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw340dp-land\\styles.xml",
+                    "from": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "690",
+                        "endLines": "26",
+                        "endColumns": "12",
+                        "endOffsets": "988"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "276",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "574"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw340dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "18,24,22,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "702,898,834,774",
+                        "endColumns": "51,45,62,59",
+                        "endOffsets": "749,939,892,829"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,153,216",
+                        "endColumns": "51,45,62,59",
+                        "endOffsets": "102,148,211,271"
+                    }
+                }
+            ]
+        }
+    ]
+}

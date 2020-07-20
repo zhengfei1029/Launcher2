@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw340dp-port-v13\\values-sw340dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw340dp-port\\config.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "757",
+                        "endColumns": "65",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw340dp-port\\dimens.xml",
+                    "from": {
+                        "startLines": "37,34,35,36,33,38,18,27,26,28,29,30,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1592,1387,1457,1524,1320,1650,703,1106,1054,1152,1199,1247,775,836",
+                        "endColumns": "57,69,66,67,66,68,51,45,51,46,47,48,60,61",
+                        "endOffsets": "1645,1452,1519,1587,1382,1714,750,1147,1101,1194,1242,1291,831,893"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "121,179,249,316,384,451,520,572,618,670,717,765,814,875",
+                        "endColumns": "57,69,66,67,66,68,51,45,51,46,47,48,60,61",
+                        "endOffsets": "174,244,311,379,446,515,567,613,665,712,760,809,870,932"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw340dp-port\\styles.xml",
+                    "from": {
+                        "startLines": "21,28,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "690,1001,1111",
+                        "endLines": "25,30,41",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "972,1106,1677"
+                    },
+                    "to": {
+                        "startLines": "17,22,25",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "937,1224,1334",
+                        "endLines": "21,24,35",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1219,1329,1900"
+                    }
+                }
+            ]
+        }
+    ]
+}

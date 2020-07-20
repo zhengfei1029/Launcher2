@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi-land\\values-fi-land.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-fi-land\\strings.xml",
+                    "from": {
+                        "startLines": "21,22,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "788,865,952",
+                        "endColumns": "76,86,74",
+                        "endOffsets": "860,947,1022"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,203",
+                        "endColumns": "68,78,66",
+                        "endOffsets": "119,198,265"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\myapps\\Launcher2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "18,17,27,29,28,26,22,23,32,34,33,38,39,40,37,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "738,687,1085,1217,1150,1020,873,934,1301,1411,1347,1558,1622,1683,1497,799",
+                        "endColumns": "60,50,64,69,66,64,60,61,45,65,63,63,60,61,60,55",
+                        "endOffsets": "794,733,1145,1282,1212,1080,929,991,1342,1472,1406,1617,1678,1740,1553,850"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,167,232,302,369,434,495,557,603,669,733,797,858,920,981",
+                        "endColumns": "60,50,64,69,66,64,60,61,45,65,63,63,60,61,60,55",
+                        "endOffsets": "111,162,227,297,364,429,490,552,598,664,728,792,853,915,976,1032"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\myapps\\Launcher2\\app\\src\\main\\res\\values-sw600dp-land\\config.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "229,280",
+                        "endColumns": "50,50",
+                        "endOffsets": "275,326"
+                    },
+                    "to": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "1037,1088",
+                        "endColumns": "50,50",
+                        "endOffsets": "1083,1134"
+                    }
+                }
+            ]
+        }
+    ]
+}
