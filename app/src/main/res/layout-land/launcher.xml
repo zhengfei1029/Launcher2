@@ -59,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/qsb_bar_height"
+            android:visibility="gone"
             android:layout_gravity="start" />
 
         <include
@@ -67,6 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="@dimen/button_bar_height"
+            android:visibility="gone"
             android:layout_gravity="end" />
 
         <include

@@ -21,6 +21,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -99,8 +100,10 @@ public class Hotseat extends FrameLayout {
         if (mCellCountX < 0) mCellCountX = LauncherModel.getCellCountX();
         if (mCellCountY < 0) mCellCountY = LauncherModel.getCellCountY();
         mContent = (CellLayout) findViewById(R.id.layout);
-        mContent.setGridSize(mCellCountX, mCellCountY);
-        mContent.setIsHotseat(true);
+
+        Log.d("Hotseat", "mCellCountX=" + mCellCountX);
+        Log.d("Hotseat", "mCellCountY=" + mCellCountY);
+        mContent.setGridSize(1, 1);
 
         resetLayout();
     }

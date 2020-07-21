@@ -3,19 +3,15 @@
     <string-array name="extra_wallpapers">
     </string-array>
     <string-array name="wallpapers" translatable="false">
-        <!-- This special drawable references the platform's private
-             default_wallpaper resource so the user can always choose it. -->
+        
         <item>default_wallpaper</item>
 
-        <!-- If you want additional bitmap drawable resources to appear in the
-             wallpaper picker, add them to this list. For each foo.jpg be sure
-             to include a foo_small.jpg to be used as a thumbnail in the
-             scrolling gallery widget. -->
+        
     </string-array>
     <attr name="direction">
-        <!-- Vertical widget. -->
+        
         <enum name="vertical" value="0"/>
-        <!-- Horizontal widget. -->
+        
         <enum name="horizontal" value="1"/>
     </attr>
     <bool name="allow_rotation">false</bool>
@@ -23,7 +19,7 @@
     <bool name="config_useCustomClings">false</bool>
     <bool name="config_useDropTargetDownTransition">true</bool>
     <bool name="config_workspaceFadeAdjacentScreens">false</bool>
-    <bool name="hotseat_transpose_layout_with_orientation">true</bool>
+    <bool name="hotseat_transpose_layout_with_orientation">false</bool>
     <bool name="is_large_screen">false</bool>
     <color name="appwidget_error_color">#FCCC</color>
     <color name="bubble_dark_background">#20000000</color>
@@ -364,7 +360,7 @@
         <item name="android:ellipsize">end</item>
     </style>
     <style name="TabIndicator.AppsCustomize">
-        <!-- Overridden in values-land -->
+        
     </style>
     <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
     </style>
@@ -390,14 +386,14 @@
         <item name="android:paddingBottom">4dp</item>
     </style>
     <style name="WorkspaceIcon.Landscape.AppsCustomize">
-        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:shadowRadius">0.0</item> 
         <item name="android:background">@null</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">0dp</item>
         <item name="android:drawablePadding">6dp</item>
     </style>
     <style name="WorkspaceIcon.Landscape.Folder">
-        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:shadowRadius">0.0</item> 
         <item name="android:drawablePadding">0dp</item>
         <item name="android:paddingTop">0dp</item>
         <item name="android:layout_marginTop">-2dp</item>
@@ -410,7 +406,7 @@
         <item name="android:paddingBottom">4dp</item>
     </style>
     <style name="WorkspaceIcon.Portrait.AppsCustomize">
-        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:shadowRadius">0.0</item> 
         <item name="android:singleLine">false</item>
         <item name="android:maxLines">2</item>
         <item name="android:background">@null</item>
@@ -421,43 +417,41 @@
         <item name="android:drawablePadding">2dp</item>
     </style>
     <style name="WorkspaceIcon.Portrait.Folder">
-        <item name="android:shadowRadius">0.0</item> <!-- Don't use text shadow -->
+        <item name="android:shadowRadius">0.0</item> 
         <item name="android:drawablePadding">0dp</item>
         <item name="android:paddingTop">@dimen/folder_icon_padding_top</item>
     </style>
     <declare-styleable name="AppsCustomizePagedView">
-        <!-- Max number of cells of applications horizontally -->
+        
         <attr format="integer" name="maxAppCellCountX"/>
-        <!-- Max number of cells of applications vertically -->
+        
         <attr format="integer" name="maxAppCellCountY"/>
-        <!-- Horizontal spacing between widgets and wallpapers -->
+        
         <attr format="dimension" name="widgetCellWidthGap"/>
-        <!-- Vertical spacing between widgets -->
+        
         <attr format="dimension" name="widgetCellHeightGap"/>
-        <!-- Number of widgets horizontally -->
+        
         <attr format="integer" name="widgetCountX"/>
-        <!-- Number of widgets vertically -->
+        
         <attr format="integer" name="widgetCountY"/>
-        <!-- The x index of the item to be focused in the cling -->
+        
         <attr format="integer" name="clingFocusedX"/>
-        <!-- The y index of the item to be focused in the cling -->
+        
         <attr format="integer" name="clingFocusedY"/>
     </declare-styleable>
     <declare-styleable name="CellLayout">
-        <!-- The width of a single cell -->
+        
         <attr format="dimension" name="cellWidth"/>
-        <!-- The height of a single cell -->
+        
         <attr format="dimension" name="cellHeight"/>
-        <!-- An override for the width and height gap to allow users to specify
-             a specific size for the page using spacing instead of resolving the
-             spacing from the width of the page -->
+        
         <attr format="dimension" name="widthGap"/>
         <attr format="dimension" name="heightGap"/>
-        <!-- The max gap size for each dimension -->
+        
         <attr format="dimension" name="maxGap"/>
     </declare-styleable>
     <declare-styleable name="Cling">
-        <!-- Used to identify how to draw the cling bg -->
+        
         <attr format="string" name="drawIdentifier"/>
     </declare-styleable>
     <declare-styleable name="CustomClingText">
@@ -465,7 +459,7 @@
     <declare-styleable name="CustomClingTitleText">
     </declare-styleable>
     <declare-styleable name="DrawableStateProxyView">
-        <!-- The source view to delegate touch presses events to. -->
+        
         <attr format="integer" name="sourceViewId"/>
     </declare-styleable>
     <declare-styleable name="Extra">
@@ -486,48 +480,48 @@
         <attr format="string" name="uri"/>
     </declare-styleable>
     <declare-styleable name="HandleView">
-        <!-- Orientation of the handle. -->
+        
         <attr name="direction"/>
     </declare-styleable>
     <declare-styleable name="HolographicLinearLayout">
-        <!-- The source view to generate and apply the drawable states to/from -->
+        
         <attr format="integer" name="sourceImageViewId"/>
     </declare-styleable>
     <declare-styleable name="Hotseat">
-        <!-- The number of horizontal cells in the CellLayout -->
+        
         <attr name="cellCountX"/>
-        <!-- The number of vertical cells in the CellLayout -->
+        
         <attr name="cellCountY"/>
     </declare-styleable>
     <declare-styleable name="PagedView">
-        <!-- A spacing override for the icons within a page -->
+        
         <attr format="dimension" name="pageLayoutWidthGap"/>
         <attr format="dimension" name="pageLayoutHeightGap"/>
-        <!-- The padding of the pages that are dynamically created per page -->
+        
         <attr format="dimension" name="pageLayoutPaddingTop"/>
         <attr format="dimension" name="pageLayoutPaddingBottom"/>
         <attr format="dimension" name="pageLayoutPaddingLeft"/>
         <attr format="dimension" name="pageLayoutPaddingRight"/>
-        <!-- The space between adjacent pages of the PagedView. -->
+        
         <attr format="dimension" name="pageSpacing"/>
-        <!-- The padding for the scroll indicator area -->
+        
         <attr format="dimension" name="scrollIndicatorPaddingLeft"/>
         <attr format="dimension" name="scrollIndicatorPaddingRight"/>
     </declare-styleable>
     <declare-styleable name="StrokedTextView">
-        <!-- The color of the stroke outline -->
+        
         <attr format="color" name="strokeColor"/>
-        <!-- The color of the text -->
+        
         <attr format="color" name="strokeTextColor"/>
-        <!-- The width of the stroke -->
+        
         <attr format="float" name="strokeWidth"/>
     </declare-styleable>
     <declare-styleable name="Workspace">
-        <!-- The first screen the workspace should display. -->
+        
         <attr format="integer" name="defaultScreen"/>
-        <!-- The number of horizontal cells in the CellLayout -->
+        
         <attr format="integer" name="cellCountX"/>
-        <!-- The number of vertical cells in the CellLayout -->
+        
         <attr format="integer" name="cellCountY"/>
     </declare-styleable>
 </resources>
